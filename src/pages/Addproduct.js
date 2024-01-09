@@ -26,6 +26,7 @@ let schema = yup.object().shape({
     .min(1, "Pick at least one color")
     .required("Color is Required"),
   quantity: yup.number().required("Quantity is Required"),
+  
 });
 
 const Addproduct = () => {
